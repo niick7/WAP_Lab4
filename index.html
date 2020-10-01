@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Workshop Registration</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h3>
+        Workshop Registration
+        <select>
+          <option>More Actions</option>
+        </select>
+      </h3>
+    </header>
+    <form>
+      <main>
+        <div class="notice">
+          <a href="javascript:">Register now while seats are available!</a>
+        </div>
+        <div class="content">
+          <div class="sub_content">
+            <div class="row">
+              <div class="c_left">
+                First Name <span>*</span>
+              </div>
+              <div class="c_right">
+                <input type="text" name="first_name" required/>
+              </div>
+            </div>
+            <div class="row">
+              <div class="c_left">
+                Last Name <span>*</span>
+              </div>
+              <div class="c_right">
+                <input type="text" name="last_name" required/>
+              </div>
+            </div>
+            <div class="row">
+              <div class="c_left">
+                Company/Institution <span>*</span>
+              </div>
+              <div class="c_right">
+                <input type="text" name="company" required/>
+              </div>
+            </div>
+            <div class="row">
+              <div class="c_left">
+                Address <span>*</span>
+              </div>
+              <div class="c_right">
+                <textarea name="address" rows="7" required></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <div class="c_left">
+                City
+              </div>
+              <div class="c_right">
+                <input type="text" name="city" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="c_left">
+                State / Province / Region
+              </div>
+              <div class="c_right">
+                <select name="state">
+                  <option>-Select-</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="c_left">
+                Country
+              </div>
+              <div class="c_right">
+                <select name="country">
+                  <option>-Select-</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="c_left">
+                Email <span>*</span>
+              </div>
+              <div class="c_right">
+                <input type="text" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}" required/>
+              </div>
+            </div>
+            <div class="row">
+              <div class="c_left">
+                Phone number <span>*</span>
+              </div>
+              <div class="c_right">
+                <input type="text" name="phone_number" pattern="[0-9]*" required/>
+              </div>
+            </div>
+          </div>
+          <div class="sub_content">
+            <div class="row">
+              <p>Lunch</p>
+            </div>
+            <div class="row">
+              <div class="c_left">
+                Meal Preference
+              </div>
+              <div class="c_right">
+                <select name="meal_preference">
+                  <option>Vegetarian</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <p>Payment Details</p>
+            </div>
+            <div class="row">
+              <div class="c_left">
+                Payment Mode
+              </div>
+              <div class="c_right">
+                <label>
+                  <input type="checkbox" name="payment_mode[]" > Cash
+                </label><br />
+                <label>
+                  <input type="checkbox" name="payment_mode[]" > Cheque
+                </label><br />
+                <label>
+                  <input type="checkbox" name="payment_mode[]" > Demand Draft
+                </label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="c_left">
+                DD/Cheque No.
+              </div>
+              <div class="c_right">
+                <input type="text" name="dd_cheque_no"/>
+              </div>
+            </div>
+            <div class="row">
+              <div class="c_left">
+                Drawn On (Bank Name)
+              </div>
+              <div class="c_right">
+                <input type="text" name="drawn_on"/>
+              </div>
+            </div>
+            <div class="row">
+              <div class="c_left">
+                Payable at
+              </div>
+              <div class="c_right">
+                <input type="text" name="payable_at"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <input type="submit"> <input type="reset">
+      </footer>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+body {
+  background-color: #A2CBBC;
+  margin: 0;
+}
+
+h3 {
+  margin: 12px;
+}
+
+h3 select {
+  margin-left: 32px;
+  background: transparent;
+  border: 0;
+}
+
+form {
+  margin: 2px;
+}
+
+main {
+  background: #ffffff;
+  padding: 12px;
+}
+
+.notice {
+  padding: 8px 0 24px 0;
+}
+
+.content {
+  margin-bottom: 32px;
+}
+
+.notice a {
+  color: #404040;
+}
+
+.row {
+  margin-bottom: 24px;
+}
+
+.row p {
+  margin-top: 0;
+  text-decoration: underline;
+}
+
+.sub_content, .c_left, .c_right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.sub_content {
+  width: 49%;
+}
+
+.c_left {
+  font-weight: bold;
+  width: 35%;
+}
+
+.c_left span {
+  color: red;
+  font-weight: normal;
+  font-size: 10px;
+  vertical-align: top;
+}
+
+.c_right {
+  width: 64%;
+}
+
+.c_right input[type='text'], .c_right textarea, .c_right select {
+  width: 60%;
+  padding: 1px;
+}
+
+footer {
+  background: #E3E3E3;
+  text-align: center;
+  padding: 4px;
+}
+
+input[type='submit'], input[type='reset'] {
+  background-color: #7AA897;
+  border: 0;
+  padding: 4px;
+  width: 80px;
+  color: #ffffff;
+}
